@@ -1,0 +1,11 @@
+MONGO_URL = mongodb://blog:qweasd@cluster0-shard-00-00.htnet.mongodb.net:27017,cluster0-shard-00-01.htnet.mongodb.net:27017,cluster0-shard-00-02.htnet.mongodb.net:27017/mydb?ssl=true&replicaSet=atlas-8uktnh-shard-0&authSource=admin&retryWrites=true&w=majority
+
+keep pass alphabet only
+or
+update password
+
+{
+    "username": "rajeev",
+    "email": "rajeev@email.com",
+    "password": "rajeev123"
+}
