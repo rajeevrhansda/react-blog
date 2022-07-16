@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+.link {
+  color: #be9656;
+}
+
 html {
   scroll-behavior: smooth;
 }
