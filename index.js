@@ -39,6 +39,10 @@ mongoose
     .then(console.log("Connected to MongoDB"))
     .catch((error) => console.log("ERROR", error));
 
+app.get('/', (req, res) => {
+    res.send('MongoDB Server!')
+});
+
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
